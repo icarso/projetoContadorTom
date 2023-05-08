@@ -21,25 +21,6 @@ body{
     height: 100vh;
 }
 
-.menu a{
-    padding: 5px;
-    margin: 11px;
-    text-align: center;
-    color: #F9E8EA;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 160px;
-    transition: all 0.5s;
-}
-
-.menu a:hover{
-    color:#13295b;
-    background-color: #96d3f8;
-    box-shadow: 0px 0px 10px  #F9E8EA;
-    border-radius: 50px;
-}
-
 ul{
     list-style-type: none;
 }
@@ -47,42 +28,73 @@ ul{
 li{
     float: left;
 }
+.menu a {
+    padding: 6px;
+    margin: 19px;
+    text-align: center;
+    color: #F9E8EA;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 15vw;
+    transition: all 0.5s;
+    border-radius: 50px;
+}
+
+.menu a:hover{
+    color:#13295b;
+    background-color: #96d3f8;
+    box-shadow: 0px 0px 10px  #F9E8EA;
+}
+
+#button_whatsapp{
+    background-color: #25D366;
+}
+
+#button_whatsapp:hover{
+    color: #F9E8EA;
+}
+
 
 hr {
-    margin: 5em;
+    margin: 4em;
     width: 90%;
     border-color: #2C88BC;
 }
-
-.mainPage{
+.mainPage {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.texto{
+.texto {
     display: inline;
     color: #152B59;
     margin-top: 20px;
-    margin-left: 130px;
-    width: 350px;
+    margin-left: 35px;
+    width: 530px;
 }
 
-h1{
-    font-size: 41px;
-    margin-bottom: 30px;
+h1 {
+    font-size: 60px;
+    margin-bottom: 61px;
 }
 
 #boas_maos{
     color: #F9E8EA;
 }
 
-.paragrafo{
-    color:#F9E8EA;
+.paragrafo {
+    color: #F9E8EA;
     font-size: 20px;
-    margin-bottom: 50px;
+    line-height: 27px;
+    word-spacing: 1px;
+    margin-bottom: 60px;
 }
 
-#button_servicos{
+#button_servicos {
     padding: 10px 50px;
     text-align: center;
     text-decoration: none;
@@ -90,17 +102,23 @@ h1{
     background-color: #1d68a0;
     font-size: 18px;
     border: 2px solid #1d68a0;
-    box-shadow: 1px 1px 3px #131012;
-    border-radius: 50px;
+    box-shadow: 1px 1px 5px 0px #131012;
+    border-radius: 25px;
     position: absolute;
-    left: 200px;
+    left: 350px;
+    transition: all 0.2s;
 }
 
-#foto{
-    width: 300px;
-    border-radius: 250px 250px 130px 300px;
-    padding: 20px;
-    margin-bottom: 30px;
+#button_servicos:hover {
+    background-color: #2C88BC;
+    border: 2px solid #2C88BC;
+}
+
+#foto {
+    width: 432px;
+    border-radius: 250px 250px 45px 300px;
+    margin-right: 80px;
+    margin-top: 32px;
 }
 
 .sobre_mim{
