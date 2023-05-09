@@ -152,6 +152,11 @@ h1 {
     font-weight: 600;
 }
 
+.button_voltar:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
 .servicos{
     background-color: #13295b;
     text-align: center;
@@ -170,6 +175,10 @@ h1 {
     font-size: 26px;
     letter-spacing: 1px;
     line-height: 30px;
+    color: #F9E8EA;
+}
+
+.servicos .button_voltar{
     color: #F9E8EA;
 }
 
