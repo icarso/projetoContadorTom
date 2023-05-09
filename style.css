@@ -19,6 +19,7 @@ body{
     background: -webkit-linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
     background: linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
     height: 100vh;
+    color:#F9E8EA;
 }
 
 ul{
@@ -55,7 +56,6 @@ li{
     color: #F9E8EA;
 }
 
-
 hr {
     margin: 4em;
     width: 90%;
@@ -82,7 +82,7 @@ h1 {
     margin-bottom: 61px;
 }
 
-#boas_maos{
+#destaque{
     color: #F9E8EA;
 }
 
@@ -101,17 +101,18 @@ h1 {
     color: #F9E8EA;
     background-color: #1d68a0;
     font-size: 18px;
-    border: 2px solid #1d68a0;
+    border: 2px double #1d68a0;
     box-shadow: 1px 1px 5px 0px #131012;
     border-radius: 25px;
     position: absolute;
     left: 350px;
     transition: all 0.2s;
+    border:medium;
+    letter-spacing: 1px;
 }
 
 #button_servicos:hover {
     background-color: #2C88BC;
-    border: 2px solid #2C88BC;
 }
 
 #foto {
