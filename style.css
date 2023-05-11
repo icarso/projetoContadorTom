@@ -216,20 +216,29 @@ h1 {
 .tipo_Servico{
     letter-spacing: 2px;
     background-color: #39a6e6;
-    color: #F9E8EA;
+    
     display: inline-block;
     text-align: center;
     width: 20%;
-    height: 80px;
     margin: 5vh 3vw;
+    padding: 1vh;
     line-height: 80px;
     border: 2px solid #1d68a0;
     border-radius: 10px;
     box-shadow: inset 1px 1px 20px 0px #f9e8ea66;
     opacity: 0.7;
-    transition: all 0.35s;
+    transition: all 0.2s ease-out;
 }
 
+.icon{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.linkWhats{
+    text-decoration: none;
+    color: #1d68a0;
+}
 .tipo_Servico:hover{
     opacity: 1;
     background-color: #d0e7f6;
