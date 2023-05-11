@@ -227,8 +227,13 @@ h1 {
     border-radius: 10px;
     box-shadow: inset 1px 1px 20px 0px #f9e8ea66;
     opacity: 0.7;
+    transition: all 0.35s;
 }
 
 .tipo_Servico:hover{
     opacity: 1;
+    background-color: #d0e7f6;
+    color: #2C88BC;
+    font-weight: 700;
+    box-shadow: inset 0px 0px 2px 0px #1d68a0;
 }
