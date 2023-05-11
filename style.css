@@ -158,7 +158,7 @@ h1 {
 }
 
 .servicos{
-    background-color: #13295b;
+    background-color: #96d3f8;
     text-align: center;
     padding: 40px 60px;
 }
@@ -166,8 +166,8 @@ h1 {
 .subtitulo_servicos{
     padding: 40px;
     font-size: 36px;
-    color: #F9E8EA;
-    text-shadow: 0x 0x 2px #F9E8EA;
+    color: #13295b;
+    text-shadow: 0x 0x 2px #1d68a0;
 }
 
 .servicos p{
@@ -200,4 +200,35 @@ h1 {
     font-size: 26px;
     letter-spacing: 1px;
     line-height: 30px;
+}
+
+.box_servicos{
+    background-color: #96d3f8;
+    display: inline-block;
+    text-align: center;
+    width: 80vw;
+    margin: 5vh 0;
+    border: 1px solid #1d68a0;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #1d68a0;
+}
+
+.tipo_Servico{
+    letter-spacing: 2px;
+    background-color: #39a6e6;
+    color: #F9E8EA;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    height: 80px;
+    margin: 5vh 3vw;
+    line-height: 80px;
+    border: 2px solid #1d68a0;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 20px 0px #f9e8ea66;
+    opacity: 0.7;
+}
+
+.tipo_Servico:hover{
+    opacity: 1;
 }
