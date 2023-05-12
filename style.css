@@ -18,7 +18,6 @@ body{
     background: -moz-linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
     background: -webkit-linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
     background: linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
-    height: 100vh;
     color:#F9E8EA;
 }
 
@@ -30,16 +29,16 @@ li{
     float: left;
 }
 .menu a {
-    padding: 6px;
-    margin: 19px;
+    padding: 0.2rem;
+    margin: 1.2rem;
     text-align: center;
     color: #F9E8EA;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
     width: 15vw;
     transition: all 0.5s;
-    border-radius: 50px;
+    border-radius: 3.125rem;
 }
 
 .menu a:hover{
@@ -57,29 +56,27 @@ li{
 }
 
 hr {
-    margin: 4em;
+    margin: 2em;
     width: 90%;
     border-color: #2C88BC;
+    box-shadow: 1px 1px 10px #96d3f8;
 }
 .mainPage {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    justify-items: center;
-    align-items: center;
-    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .texto {
     display: inline;
     color: #152B59;
-    margin-top: 20px;
-    margin-left: 35px;
-    width: 530px;
+    margin-top: 1.25rem;
+    margin-left: 2.1875rem;
+    width: 33.125rem;
 }
 
 h1 {
-    font-size: 60px;
-    margin-bottom: 61px;
+    font-size: 3.75rem;
+    margin-bottom: 3,75rem;
 }
 
 #destaque{
@@ -88,24 +85,24 @@ h1 {
 
 .paragrafo {
     color: #F9E8EA;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 27px;
     word-spacing: 1px;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
 #button_servicos {
-    padding: 10px 50px;
+    padding: 0.625rem 3.125rem;
     text-align: center;
     text-decoration: none;
     color: #F9E8EA;
     background-color: #1d68a0;
-    font-size: 18px;
+    font-size: 1.125rem;
     border: 2px double #1d68a0;
     box-shadow: 1px 1px 5px 0px #131012;
     border-radius: 25px;
     position: absolute;
-    left: 350px;
+    left: 22rem;
     transition: all 0.2s;
     border:medium;
     letter-spacing: 1px;
@@ -116,7 +113,7 @@ h1 {
 }
 
 #foto {
-    width: 432px;
+    width: 80vw;
     border-radius: 250px 250px 45px 300px;
     margin-right: 80px;
     margin-top: 32px;
@@ -125,19 +122,19 @@ h1 {
 .sobre_mim{
     background-color: #F9E8EA;
     text-align: center;
-    padding: 40px 60px;
+    padding: 2.5rem 3.75rem;
 }
 
 .subtitulo_sm{
-    padding: 40px;
-    font-size: 36px;
+    padding: 2.5rem;
+    font-size: 2.25rem;
     color: #152B59;
     text-shadow: 0x 0x 2px #131012;
 }
 
 .sobre_mim p{
-    padding: 80px;
-    font-size: 26px;
+    padding: 5rem;
+    font-size: 1.625rem;
     letter-spacing: 1px;
     line-height: 30px;
 }
@@ -145,7 +142,7 @@ h1 {
 .button_voltar{
     text-decoration: none;
     float: right;
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: #131012;
     opacity: 0.7;
     letter-spacing: 1px;
@@ -160,19 +157,19 @@ h1 {
 .servicos{
     background-color: #96d3f8;
     text-align: center;
-    padding: 40px 60px;
+    padding: 2.5rem 3.75rem;
 }
 
 .subtitulo_servicos{
-    padding: 40px;
-    font-size: 36px;
+    padding: 2.5rem;
+    font-size: 2.25rem;
     color: #13295b;
     text-shadow: 0x 0x 2px #1d68a0;
 }
 
 .servicos p{
-    padding: 80px;
-    font-size: 26px;
+    padding: 5rem;
+    font-size: 1.625rem;
     letter-spacing: 1px;
     line-height: 30px;
     color: #F9E8EA;
@@ -189,15 +186,15 @@ h1 {
 }
 
 .subtitulo_depoimentos{
-    padding: 40px;
-    font-size: 36px;
+    padding: 2.5rem;
+    font-size: 2.25rem;
     color: #F9E8EA;
     text-shadow: 0x 0x 2px #F9E8EA;
 }
 
 .depoimentos p{
-    padding: 80px;
-    font-size: 26px;
+    padding: 5rem;
+    font-size: 1.625rem;
     letter-spacing: 1px;
     line-height: 30px;
 }
@@ -216,7 +213,6 @@ h1 {
 .tipo_Servico{
     letter-spacing: 2px;
     background-color: #39a6e6;
-    
     display: inline-block;
     text-align: center;
     width: 20%;
