@@ -19,15 +19,17 @@ body{
     background: -webkit-linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
     background: linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
     color:#F9E8EA;
+    display: grid;
 }
 
 ul{
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-li{
-    float: left;
-}
 .menu a {
     padding: 0.2rem;
     margin: 1.2rem;
