@@ -65,46 +65,40 @@ hr {
 }
 .mainPage {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
 }
 
 .texto {
-    display: inline;
-    color: #152B59;
-    margin-top: 1.25rem;
-    margin-left: 2.1875rem;
-    width: 33.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    white-space: pre-wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-h1 {
-    font-size: 3.75rem;
-    margin-bottom: 3,75rem;
+h1{
+    font-size: 3.2rem;
+    padding: 2px;
+    margin: 0.5rem;
 }
 
 #destaque{
-    color: #F9E8EA;
-}
-
-.paragrafo {
-    color: #F9E8EA;
-    font-size: 1.25rem;
-    line-height: 27px;
-    word-spacing: 1px;
-    margin-bottom: 3.75rem;
+    color: #152B59;
 }
 
 #button_servicos {
-    padding: 0.625rem 3.125rem;
-    text-align: center;
+    margin: 0.5rem;
+    padding: 0.6rem 3rem;
     text-decoration: none;
     color: #F9E8EA;
     background-color: #1d68a0;
-    font-size: 1.125rem;
+    font-size: 1rem;
     border: 2px double #1d68a0;
     box-shadow: 1px 1px 5px 0px #131012;
     border-radius: 25px;
-    position: absolute;
-    left: 22rem;
     transition: all 0.2s;
     border:medium;
     letter-spacing: 1px;
@@ -114,11 +108,16 @@ h1 {
     background-color: #2C88BC;
 }
 
+#imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #foto {
     width: 80%;
     border-radius: 250px 250px 45px 300px;
-    margin-right: 80px;
-    margin-top: 32px;
+    margin: 5vh;
 }
 
 .sobre_mim{
