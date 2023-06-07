@@ -14,20 +14,35 @@ body{
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-.start{
-    background: -moz-linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
-    background: -webkit-linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
-    background: linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
-    color:#F9E8EA;
+#box-content{
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    min-width: 100vw;
+    min-height: 100%;
+    grid-template-areas:
+    "nav"
+    "mainPage"
+    "sobre_mim"
+    "servicos";
 }
+
+nav{
+    grid-area: nav;
+    background-color: rgba(44, 135, 188, 0.750);
+    border-bottom: 0.125rem solid #39a6e6;
+    box-shadow: 0px 0px 20px 0px #131012;
+    position: fixed;
+    min-width: 100%;
+    border-radius: 0% 0% 3rem 3rem;
+}
+
 
 ul{
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .menu a {
@@ -37,8 +52,8 @@ ul{
     color: #F9E8EA;
     text-decoration: none;
     display: inline-block;
-    font-size: 1rem;
-    width: 15vw;
+    font-size: 1.2rem;
+    width: 100%;
     transition: all 0.5s;
     border-radius: 3.125rem;
 }
@@ -57,16 +72,17 @@ ul{
     color: #F9E8EA;
 }
 
-hr {
-    margin: 1rem;
-    width: 90%;
-    border-color: #2C88BC;
-    box-shadow: 1px 1px 10px #96d3f8;
-}
-.mainPage {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.mainPage{
+    grid-area: mainPage;
+    background: -moz-linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
+    background: -webkit-linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
+    background: linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
+    color:#F9E8EA;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .texto {
@@ -121,6 +137,7 @@ h1{
 }
 
 .sobre_mim{
+    grid-area: sobre_mim;
     background-color: #F9E8EA;
     text-align: center;
     padding: 2.5rem 3.75rem;
@@ -156,6 +173,7 @@ h1{
 }
 
 .servicos{
+    grid-area: servicos;
     background-color: #96d3f8;
     text-align: center;
     padding: 2.5rem 3.75rem;
