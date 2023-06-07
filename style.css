@@ -66,7 +66,7 @@ ul{
     color: #F9E8EA;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.7rem;
+    font-size: 2rem;
     width: 100%;
     transition: all 0.5s;
     border-radius: 3.125rem;
@@ -176,8 +176,9 @@ h1{
 
 #nome{
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 3.5rem;
+    letter-spacing: 0.2rem;
 }
 
 #imagem_sobre_mim{
@@ -188,6 +189,7 @@ h1{
 #subtitulo_sm{
     text-transform: uppercase;
     font-size: 5rem;
+    margin-top: 2rem;
 }
 
 
@@ -241,6 +243,7 @@ h1{
 
 .subtitulo_servicos{
     font-family: "Quicksand";
+    margin-top: 2rem;
     font-size: 5rem;
     color: #13295b;
     text-shadow: 0x 0x 2px #1d68a0;
