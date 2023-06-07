@@ -27,6 +27,8 @@ body{
     "servicos";
 }
 
+/* Nav / Menu */
+
 nav{
     grid-area: nav;
     background-color: rgba(44, 135, 188, 0.750);
@@ -72,13 +74,14 @@ ul{
     color: #F9E8EA;
 }
 
+/* Main Page */
+
 .mainPage{
     grid-area: mainPage;
     background: -moz-linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
     background: -webkit-linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
     background: linear-gradient(207deg, #13295b 1%, #1d68a0 40%, #96d3f8 100%);
     color:#F9E8EA;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,19 +89,21 @@ ul{
 }
 
 .texto {
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 1rem;
     white-space: pre-wrap;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 h1{
-    font-size: 3.2rem;
-    padding: 2px;
-    margin: 0.5rem;
+    font-size: 5rem;
+    margin: 5rem;
+    text-align: center;
 }
 
 #destaque{
@@ -106,12 +111,12 @@ h1{
 }
 
 #button_servicos {
-    margin: 0.5rem;
+    margin: 2rem;
     padding: 0.6rem 3rem;
     text-decoration: none;
     color: #F9E8EA;
     background-color: #1d68a0;
-    font-size: 1rem;
+    font-size: 2rem;
     border: 2px double #1d68a0;
     box-shadow: 1px 1px 5px 0px #131012;
     border-radius: 25px;
