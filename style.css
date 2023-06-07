@@ -90,7 +90,7 @@ ul{
 }
 
 .texto {
-    margin-top: 8rem;
+    margin-top: 10rem;
     margin-bottom: 3rem;
     padding: 2rem;
     display: flex;
@@ -99,6 +99,7 @@ ul{
     align-items: center;
     white-space: pre-wrap;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 h1{
@@ -112,18 +113,18 @@ h1{
 }
 
 #button_servicos {
-    margin: 2rem;
-    padding: 0.6rem 3rem;
+    margin: 3.5rem;
+    padding: 1rem 3rem;
     text-decoration: none;
     color: #F9E8EA;
-    background-color: #1d68a0;
+    background-color: #2C88BC;
     font-size: 2rem;
-    border: 2px double #1d68a0;
+    border: .25rem double #96d3f8;
     box-shadow: 1px 1px 5px 0px #131012;
-    border-radius: 25px;
+    border-radius: 1.5625rem;
     transition: all 0.2s;
     border:medium;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 }
 
 #button_servicos:hover {
@@ -131,15 +132,16 @@ h1{
 }
 
 #imagem{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #foto {
-    width: 70%;
+    width: 100%;
     border-radius: 250px 250px 45px 300px;
-    margin: 5vh;
+    margin: 5vh 0px;
 }
 
 .sobre_mim{
