@@ -19,7 +19,7 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr 1fr 1fr;
     min-width: 100vw;
-    min-height: 100%;
+    min-height: 100vh;
     grid-template-areas:
     "nav"
     "mainPage"
@@ -91,11 +91,10 @@ ul{
 
 .texto {
     margin-top: 10rem;
-    margin-bottom: 3rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     white-space: pre-wrap;
     flex-wrap: wrap;
@@ -144,30 +143,59 @@ h1{
     margin: 5vh 0px;
 }
 
+/* Sobre Mim */
+
 .sobre_mim{
     grid-area: sobre_mim;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #F9E8EA;
-    text-align: center;
     padding: 2.5rem 3.75rem;
+    min-height: 100vh;
+    min-width: 100vw;
+    color:#152B59;
+    text-align: center;
 }
 
-.subtitulo_sm{
-    padding: 2.5rem;
-    font-size: 2.25rem;
-    color: #152B59;
-    text-shadow: 0x 0x 2px #131012;
+#nome{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.5rem;
 }
 
-.sobre_mim p{
-    padding: 5rem;
-    font-size: 1.625rem;
-    letter-spacing: 1px;
-    line-height: 30px;
+#imagem_sobre_mim{
+    width: 100%;
+    border-radius: 1000px 2500px;
+}
+
+#subtitulo_sm{
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+
+#lista_descricao{
+    min-height: 10vh;
+    justify-content: space-around;
+    font-size: 1.35rem;
+}
+
+#instagram{
+    font-size: 1.2rem;
+}
+
+#instagram a{
+    text-decoration: none;
+    color:#d62976;
+    font-weight: 700;
+    
 }
 
 .button_voltar{
+    text-align: end;
     text-decoration: none;
-    float: right;
     font-size: 0.8125rem;
     color: #131012;
     opacity: 0.7;
@@ -179,6 +207,8 @@ h1{
     text-decoration: underline;
     text-underline-position: under;
 }
+
+/* Servicos */
 
 .servicos{
     grid-area: servicos;
