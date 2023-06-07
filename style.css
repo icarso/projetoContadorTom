@@ -215,11 +215,14 @@ h1{
     background-color: #96d3f8;
     text-align: center;
     padding: 2.5rem 3.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .subtitulo_servicos{
-    padding: 2.5rem;
-    font-size: 2.25rem;
+    font-size: 5rem;
     color: #13295b;
     text-shadow: 0x 0x 2px #1d68a0;
 }
@@ -232,9 +235,60 @@ h1{
     color: #F9E8EA;
 }
 
-.servicos>.button_voltar{
-    color: #F9E8EA;
+.box_servicos{
+    background-color: #d0e7f62c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 80%;
+    border: 1px solid #1d68a0;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #1d68a0;
 }
+
+.tipo_Servico{
+    letter-spacing: 2px;
+    background-color: #39a6e6;
+    text-align: center;
+    width: 80%;
+    margin: 5vh 3vw;
+    padding: 1vh;
+    line-height: 80px;
+    border: 2px solid #1d68a0;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 20px 0px #f9e8ea66;
+    opacity: 0.7;
+    transition: all 0.2s ease-out;
+}
+
+.icon{
+    font-size: 5rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.linkWhats{
+    display: inline-block;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #152B59;
+    margin-top: 2rem;
+}
+
+.tipo_Servico:hover{
+    opacity: 1;
+    background-color: #d0e7f6;
+    color: #2C88BC;
+    font-weight: 700;
+    box-shadow: inset 0px 0px 2px 0px #1d68a0;
+}
+
+.servicos>.button_voltar{
+    color: #152B59;
+}
+
+/* Depoimentos */
 
 .depoimentos{
     background-color: #2C88BC;
@@ -254,48 +308,4 @@ h1{
     font-size: 1.625rem;
     letter-spacing: 1px;
     line-height: 30px;
-}
-
-.box_servicos{
-    background-color: #96d3f8;
-    display: inline-block;
-    text-align: center;
-    width: 80vw;
-    margin: 5vh 0;
-    border: 1px solid #1d68a0;
-    border-radius: 10px;
-    box-shadow: 0px 5px 15px #1d68a0;
-}
-
-.tipo_Servico{
-    letter-spacing: 2px;
-    background-color: #39a6e6;
-    display: inline-block;
-    text-align: center;
-    width: 20%;
-    margin: 5vh 3vw;
-    padding: 1vh;
-    line-height: 80px;
-    border: 2px solid #1d68a0;
-    border-radius: 10px;
-    box-shadow: inset 1px 1px 20px 0px #f9e8ea66;
-    opacity: 0.7;
-    transition: all 0.2s ease-out;
-}
-
-.icon{
-    font-size: 5rem;
-    text-align: center;
-}
-
-.linkWhats{
-    text-decoration: none;
-    color: #1d68a0;
-}
-.tipo_Servico:hover{
-    opacity: 1;
-    background-color: #d0e7f6;
-    color: #2C88BC;
-    font-weight: 700;
-    box-shadow: inset 0px 0px 2px 0px #1d68a0;
 }
