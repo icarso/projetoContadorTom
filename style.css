@@ -32,7 +32,7 @@ body{
 nav{
     grid-area: nav;
     background-color: rgba(44, 135, 188, 0.750);
-    border-bottom: 0.125rem solid #39a6e6;
+    border-bottom: 0.25rem solid #39a6e6;
     box-shadow: 0px 0px 20px 0px #131012;
     position: fixed;
     min-width: 100%;
@@ -44,17 +44,18 @@ ul{
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .menu a {
-    padding: 0.2rem;
-    margin: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin: 15% 0;
     text-align: center;
     color: #F9E8EA;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     width: 100%;
     transition: all 0.5s;
     border-radius: 3.125rem;
