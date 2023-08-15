@@ -27,14 +27,15 @@ body{
 #box-content{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr;
+    grid-template-rows: auto repeat(4, 1fr);
     min-width: 100vw;
     min-height: 100vh;
     grid-template-areas:
     "nav"
     "mainPage"
     "sobre_mim"
-    "servicos";
+    "servicos"
+    "contato";
 }
 
 /* Nav / Menu */
@@ -114,9 +115,10 @@ ul{
 }
 
 h1{
-    font-size: 6rem;
+    font-size: 6.5rem;
     margin: 5rem;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 #destaque{
@@ -127,7 +129,7 @@ h1{
     font-family: "Quicksand";
     font-weight: 700;
     margin: 3.5rem;
-    padding: 1rem 3rem;
+    padding: 2rem 3.5rem;
     text-decoration: none;
     color: #F9E8EA;
     background-color: #2C88BC;
@@ -154,7 +156,7 @@ h1{
 #foto {
     width: 100%;
     border-radius: 250px 250px 45px 300px;
-    margin: 5vh 0px;
+    margin: 4vh 0px 5vh 0px;
 }
 
 /* Sobre Mim */
@@ -446,4 +448,8 @@ h1{
     font-size: 1.625rem;
     letter-spacing: 1px;
     line-height: 30px;
+}
+
+.contato{
+    grid-area: contato;
 }
