@@ -456,6 +456,9 @@ h1{
 
 .contato{
     grid-area: contato;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #formulario{
