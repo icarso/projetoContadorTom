@@ -192,7 +192,7 @@ h1{
     font-family: "Quicksand";
     text-transform: uppercase;
     font-size: 5rem;
-    margin-top: 6rem;
+    margin-top: 10vh;
     text-align: center;
 }
 
@@ -362,7 +362,7 @@ h1{
 
 .subtitulo_servicos{
     font-family: "Quicksand";
-    margin-top: 2rem;
+    margin-top: 10vh;
     margin-bottom: 2rem;
     font-size: 5rem;
     color: #d0e7f6;
