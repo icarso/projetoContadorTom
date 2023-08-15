@@ -452,6 +452,68 @@ h1{
     line-height: 30px;
 }
 
+/* Contato */
+
 .contato{
     grid-area: contato;
+}
+
+#formulario{
+    margin: 10vh;
+    padding: 5rem;
+    border: 3.5px solid #2C88BC;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+}
+
+.form_box{
+    font-family: "Quicksand";
+    border:1px solid #96d3f8;
+    width: 100%;
+    height: 56px;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    background-color: #e2f4ff;
+    color:rgb(27, 27, 200);
+}
+
+#form_buttons{
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+#form_buttons > button{
+    font-family: "Quicksand";
+    text-transform: uppercase;
+    width: 100%;
+    height: 56px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    color:#f2f4fd;
+    border: none;
+    letter-spacing: 2px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+#enviar{
+    background-color: #2C88BC;
+}
+
+#enviar:hover{
+    background-color: #39a6e6;
+}
+
+#resetar{
+    background-color: #e25454;
+}
+
+#resetar:hover{
+    background-color: #f83b3b;
 }
