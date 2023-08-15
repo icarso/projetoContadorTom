@@ -29,6 +29,11 @@
                     <section id="imagem">
                         <img src="./img/Imagem_Tom.png" alt="Imagem da Página Inicial" id="foto"/>
                     </section>
+                    <div class="ondas">
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                     </div>
             </div>
             
         <!-- About_me page -->
@@ -83,7 +88,29 @@
         -->
 
         <!-- Contact page -->
-        <div class="contato"></div>
+        <div class="contato">
+            <h2 id="subtitulo_contato">Fale comigo</h2>
+            <form action="#" id="formulario" method="post">
+                <fieldset id="form_field">
+                    <label for="nome">Nome:</label>
+                    <input type="nome" class="form_box" placeholder="Insira seu nome" id="nome_box" required><br><br>
+
+                    <label for="email">Email</label>
+                    <input type="email" class="form_box" placeholder="Insira seu email" id="email_box" required><br><br>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="telefone" class="form_box" placeholder="Insira seu telefone" id="telefone_box" required><br><br>
+
+                    <label for="message">Mensagem:</label>
+                    <textarea class="form_box" id="message_box" placeholder="Digite sua mensagem..." rows="4" cols="50" wrap="hard"></textarea>
+
+                    <div id="form_buttons">
+                        <button type="submit" id="enviar">Enviar</button>
+                        <button type="submit" id="resetar">Resetar</button>
+                    </div>
+                    </fieldset>
+            </form>
+        </div>
         <!-- Footer -->
         
     </body>
