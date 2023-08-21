@@ -457,8 +457,7 @@ h1{
 }
 
 #formulario{
-    margin: 10%;
-    margin-top: 5vh;
+    margin: 5% auto;
     padding: 8% 5%;
     border: 3.5px solid #2C88BC;
     border-radius: 2rem;
@@ -498,7 +497,6 @@ label{
     font-family: "Quicksand";
     text-transform: uppercase;
     width: 100%;
-    font-weight: 700;
     font-size: 2rem;
     border-radius: 0.5rem;
     color:#f2f4fd;
