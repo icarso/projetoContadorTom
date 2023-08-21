@@ -79,15 +79,6 @@ ul{
     box-shadow: 0px 0px 10px  #F9E8EA;
 }
 
-#button_whatsapp{
-    background-color: #25D366;
-    text-transform: uppercase;
-}
-
-#button_whatsapp:hover{
-    color: #F9E8EA;
-}
-
 /* Main Page */
 
 .mainPage{
@@ -531,4 +522,18 @@ label{
 
 #resetar:hover{
     background-color: #f83b3b;
+}
+
+#button_whatsapp{
+    position: fixed;
+    bottom: 0;
+    display: block;
+    cursor: pointer;
+    z-index: 9;
+    float: right;
+}
+
+#button_whatsapp_image{
+    width: 13%;
+    margin: 3%
 }
