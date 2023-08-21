@@ -537,3 +537,13 @@ label{
     width: 13%;
     margin: 3%
 }
+
+/* Footer */
+footer{
+    background-color: #152B59;
+    color:#d0e7f6;
+    text-align: center;
+    padding: 1.5%;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
