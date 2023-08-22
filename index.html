@@ -92,18 +92,19 @@
             <h2 id="subtitulo_contato">Fale comigo</h2>
             <form action="#" id="formulario" method="post">
                 <div id="form_field">
-                    <label for="nome">Nome</label>
+                    <label for="nome">Nome*</label>
                     <input type="nome" class="form_box" placeholder="Insira seu nome" id="nome_box" required><br><br>
 
-                    <label for="email">Email</label>
-                    <input type="email" class="form_box" placeholder="Insira seu email" id="email_box" required><br><br>
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form_box" placeholder="Insira seu email" id="email_box"><br><br>
 
-                    <label for="telefone">Telefone (DDD + número de telefone)</label>
+                    <label for="telefone">Telefone* (DDD + número de telefone)</label>
                     <input type="number" class="form_box" placeholder="Insira seu telefone" id="telefone_box" required><br><br>
 
-                    <label for="message">Mensagem</label>
-                    <textarea class="form_box" id="message_box" placeholder="Digite sua mensagem..." rows="4" cols="50" wrap="hard"></textarea>
+                    <label for="message">Mensagem*</label>
+                    <textarea class="form_box" id="message_box" placeholder="Digite sua mensagem..." rows="4" cols="50" wrap="hard" required></textarea>
 
+                    <p id="alert">* campo obrigatório</p>
                     <div id="form_buttons">
                         <button type="submit" id="enviar">Enviar</button>
                         <button type="submit" id="resetar">Resetar</button>
@@ -117,10 +118,15 @@
         -->
         </div>
         <img>
-        <a href="https://wa.me/5532984057065/?text=Olá, Wellington. Tudo bem? Eu venho através do seu site e gostaria de maiores informações sobre seus serviços" target="_blank" id="button_whatsapp"><img src="./img/whats_button.png" id="button_whatsapp_image"></a>
+        <a href="https://wa.me/5532984057065/?text=Olá, Wellington. Tudo bem? Eu venho através do seu site e gostaria de maiores informações sobre seus serviços." target="_blank" id="button_whatsapp"><img src="./img/whats_button.png" id="button_whatsapp_image"></a>
         <!-- Footer -->
         <footer>
             <p>Átimo Contabilidade - 2023. Todos os direitos reservados.</p>
+            <div class="rodape">
+                <a href="https://wa.me/5532984057065/?text=Olá, Wellington. Tudo bem? Eu venho através do seu site e gostaria de maiores informações sobre seus serviços." target='_blank' class="atalhos">WhatsApp</a>
+                <a href="https://www.instagram.com/contadorTom/" target='_blank' class="atalhos">Instagram</a>
+            </div>
         </footer>
+        <script src="./js/main.js"></script>
     </body>
     </html>
