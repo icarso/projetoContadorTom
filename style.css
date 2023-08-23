@@ -521,15 +521,14 @@ h1{
 #button_whatsapp{
     position: fixed;
     bottom: 0;
-    display: inline;
     cursor: pointer;
     z-index: 9;
-    float: right;
+    width: 13%;
+    margin: 3%
 }
 
 #button_whatsapp_image{
-    width: 13%;
-    margin: 3%
+    width: 100%;
 }
 
 /* Footer */
@@ -544,11 +543,14 @@ footer{
 
 .rodape{
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
+    font-size: 2rem;
+    font-family: Lato, sans-serif;
 }
 
 .rodape>a{
-    color:#d0e7f6;
+    color:#131012;
+    background-color: #d0e7f6;
     text-decoration: none;
     border: 1px solid #d0e7f6;
     border-radius: 3rem;
