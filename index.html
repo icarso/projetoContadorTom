@@ -90,7 +90,7 @@
         <!-- Contact page -->
         <div class="contato" id="contato">
             <h2 id="subtitulo_contato">Fale comigo</h2>
-            <form action="#" id="formulario" method="post">
+            <form action="http://localhost:5196/api/contato" id="formulario" method="post">
                 <div id="form_field">
                     <label for="nome">Nome*</label>
                     <input type="nome" class="form_box" placeholder="Insira seu nome" id="nome_box" required><br><br>
@@ -106,8 +106,8 @@
 
                     <p id="alert">* campo obrigatório</p>
                     <div id="form_buttons">
-                        <button type="submit" id="enviar">Enviar</button>
-                        <button type="submit" id="resetar">Resetar</button>
+                        <button type="submit" id="enviar" onclick="enviarFormulario()">Enviar</button>
+                        <button type="submit" id="resetar" onclick="resetar()">Resetar</button>
                     </div>
                 </div>
             </form>
@@ -127,6 +127,6 @@
                 <a href="https://www.instagram.com/contadorTom/" target='_blank' class="atalhos">Instagram</a>
             </div>
         </footer>
-        <script src="./js/main.js"></script>
+        <script src="./js/main.js" type="module"></script>
     </body>
     </html>

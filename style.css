@@ -521,7 +521,7 @@ h1{
 #button_whatsapp{
     position: fixed;
     bottom: 0;
-    display: block;
+    display: inline;
     cursor: pointer;
     z-index: 9;
     float: right;
