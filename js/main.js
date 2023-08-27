@@ -42,6 +42,6 @@ function resetar(){
 
 function fecharAutomatico(respostaUsuario){
     setTimeout(() => {
-        respostaUsuario.style.display = 'none';
+        respostaUsuario.classList.remove('show');
     }, 5000);
 }

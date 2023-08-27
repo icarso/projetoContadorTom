@@ -5,7 +5,6 @@
         <title>Contador Tom</title>
         <link rel="icon" href="./img/logo_contadortom.png">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body id="box-content">
         <!-- Menu -->
@@ -31,32 +30,26 @@
             
         <!-- Sobre Mim -->
         <div class="sobre_mim" id="sobre_mim">
-            <head>
-                <h2 class="subtitulo">Conheça o expert</h2>
-                <p id='nome'> Wellington Almeida</p>
-                <img src="./img/Imagem_Sobre_mim.jpg" alt="Imagem de apresentação do Wellington" id="imagem_sobre_mim">
-            </head>
-            <article id="lista_descricao">
+            <h2 class="subtitulo">Conheça o expert</h2>
+            <p id='nome'> Wellington Almeida</p>
+            <img src="./img/Imagem_Sobre_mim.jpg" alt="Imagem de apresentação do Wellington" id="imagem_sobre_mim">
+            <div id="lista_descricao">
                 <p>Apaixonado por Contabilidade</p>
                 <p>Formado em Ciências Contabeis (Faculdade do Sudeste Mineiro)</p>
                 <p>MBA em Finanças (UFJF)</p>
                 <p>Mais de 10 anos de atuação</p>
-            </article>
-            <footer>
-                <p id="instagram">Acompanhe meu trabalho no <a href="https://www.instagram.com/contadorTom/" target='_blank'>Instagram</a></p>
-            </footer>
+            </div>
+            <p id="instagram">Acompanhe meu trabalho no <a href="https://www.instagram.com/contadorTom/" target='_blank'>Instagram</a></p>
         </div>
 
         <!-- Servicos -->
         <div class="servicos" id="servicos">
-            <head>
-                <h2 class="subtitulo subtitulo_branco">SERVIÇOS</h2>
-            </head>
-            <main class="box_servicos">
+            <h2 class="subtitulo subtitulo_branco">SERVIÇOS</h2>
+            <div class="box_servicos">
                 <div class="tipo_Servico"><section class="icon">💡</section><a href="https://api.whatsapp.com/send?phone=5532984057065" target="_blank" class="linkServicos" title="Micro Empreendedor Individual - Chamar no WhatsApp">MEI</a></div>
                 <div class="tipo_Servico"><section class="icon">👤</section><a href="https://api.whatsapp.com/send?phone=5532984057065" target="_blank" class="linkServicos" title="Pessoa Física - Chamar no WhatsApp">Pessoa Física</a></div>
                 <div class="tipo_Servico"><section class="icon">🏢</section><a href="https://api.whatsapp.com/send?phone=5532984057065" target="_blank" class="linkServicos" title="Pessoa Jurídica - Chamar no WhatsApp">Pessoa Jurídica</a></div>
-            </main>
+            </div>
 
             <!--background-->
             <ul class="circles">
@@ -75,17 +68,11 @@
 
         <!-- Contato -->
         <div class="contato" id="contato">
-            <head>
-                <h2 class="subtitulo subtitulo_branco">Fale comigo</h2>
-                <div id="mensagemRetorno">
-                    <div class="alert alert-success" role="alert" id="alertaSucesso">
-                        Sua mensagem foi enviada com sucesso!
-                    </div>
-                    <div class="alert alert-danger" role="alert" id="alertaErro">
-                        Erro ao enviar sua mensagem.
-                      </div>
-                </div>
-            </head>
+            <h2 class="subtitulo subtitulo_branco">Fale comigo</h2>
+            <div id="mensagemRetorno">
+                <p class="alerta" id="alertaSucesso">Sua mensagem foi enviada com sucesso!</p>
+                <p class="alerta" id="alertaErro">Erro ao enviar sua mensagem.</p>
+            </div>
             <form id="formulario">
                 <div id="form_field">
                     <label for="nome">Nome*</label>
